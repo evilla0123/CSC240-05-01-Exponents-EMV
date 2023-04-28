@@ -37,15 +37,15 @@
             // 
             // xInputTextBox
             // 
-            this.xInputTextBox.Location = new System.Drawing.Point(92, 45);
+            this.xInputTextBox.Location = new System.Drawing.Point(175, 34);
             this.xInputTextBox.Name = "xInputTextBox";
-            this.xInputTextBox.Size = new System.Drawing.Size(100, 20);
+            this.xInputTextBox.Size = new System.Drawing.Size(116, 20);
             this.xInputTextBox.TabIndex = 0;
             // 
             // xInputLabel
             // 
             this.xInputLabel.AutoSize = true;
-            this.xInputLabel.Location = new System.Drawing.Point(92, 27);
+            this.xInputLabel.Location = new System.Drawing.Point(189, 9);
             this.xInputLabel.Name = "xInputLabel";
             this.xInputLabel.Size = new System.Drawing.Size(85, 13);
             this.xInputLabel.TabIndex = 3;
@@ -54,7 +54,7 @@
             // xOutputLabel
             // 
             this.xOutputLabel.AutoSize = true;
-            this.xOutputLabel.Location = new System.Drawing.Point(102, 181);
+            this.xOutputLabel.Location = new System.Drawing.Point(172, 132);
             this.xOutputLabel.Name = "xOutputLabel";
             this.xOutputLabel.Size = new System.Drawing.Size(0, 13);
             this.xOutputLabel.TabIndex = 4;
@@ -62,7 +62,7 @@
             // 
             // xGoButton
             // 
-            this.xGoButton.Location = new System.Drawing.Point(105, 96);
+            this.xGoButton.Location = new System.Drawing.Point(199, 308);
             this.xGoButton.Name = "xGoButton";
             this.xGoButton.Size = new System.Drawing.Size(75, 67);
             this.xGoButton.TabIndex = 6;
@@ -72,7 +72,7 @@
             // 
             // xResetButton
             // 
-            this.xResetButton.Location = new System.Drawing.Point(105, 212);
+            this.xResetButton.Location = new System.Drawing.Point(199, 396);
             this.xResetButton.Name = "xResetButton";
             this.xResetButton.Size = new System.Drawing.Size(75, 23);
             this.xResetButton.TabIndex = 7;
@@ -84,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(484, 462);
             this.Controls.Add(this.xResetButton);
             this.Controls.Add(this.xGoButton);
             this.Controls.Add(this.xOutputLabel);
